@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Paul Broyles - Paper Route — 7 of 57</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="Paul Broyles" />
+  <meta name="description" content="A page for the game Paper Route by Paul Broyles." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ </head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.jpg"><img src="Small Cover.jpg" border="1"></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>Paper Route</span> <span class="pagination">— 7 of 57</span>
+	</h1>
+	<h2>
+		<span>Paul Broyles</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 2</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.html">Beginning</a></li><li><a href="source_4.html">Previous</a></li><li><a href="source_6.html">Next</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">Section 1 - Simple Objects</span></p><p class="indent0">The desk is in your dorm room. &quot;<span class="quote">In a corner by [</span><span class="substitution">your dorm window</span><span class="quote">], your desk is the epicenter of the chaos.</span>&quot; It is not portable. The description is &quot;<span class="quote">The sturdy wooden desk is barely visible under the [</span><span class="substitution">mess</span><span class="quote">], but at least you can still see your [</span><span class="substitution">computer</span><span class="quote">].</span>&quot; <span class="comment">[A SUPPORTER is a special kind of object that you can put other things on top of. We wouldn't be able to put anything on the desk if we didn't define it as a supporter. It's important to specify that it's NOT PORTABLE, because otherwise the interactor would be able to pick up the desk and carry it around--probably not something you're up to after an all-nighter! Note that the initial description I assign here does not actually appear; a rule in Inform I haven't yet managed to track down apparently suppresses the initial description of a supporter when we're describing something on it.]</span></p><p class="indent0">The ID card is an object. It is on the desk. &quot;<span class="quote">You can see your ID card half sticking out under the piles of stuff on your desk.</span>&quot; The description is &quot;<span class="quote">Your student ID card shows the world who you are, and how bad you looked in pictures as a first-year. You can swipe it to access restricted rooms or to pay for things.</span>&quot; <span class="comment">[You can think of objects as being just like what we think of as objects, though in reality they have a big and complicated defintion. We could also just have said &quot;The ID card is on the desk&quot; and Inform would have assumed we were talking about an object, but it's a good habit to be explicit. We've given the card a description, which an interactor can see by EXAMINING it. Interactors generally expect to be able to examine most things in the game, so get in the habit of writing descriptions. Since an interactor might not realize that the card can be swiped, we use the description to signal this--a good idea, unless we wanted that to be a puzzle. We'll tell the game what happens when you swipe in another section.]</span></p><p class="indent0">Your dorm window is a window in your dorm room. It is closed. The description is &quot;<span class="quote">Outside the window, the sky is alarmingly bright, and you can see people lounging about on the grass. Boy, are you late![</span><span class="substitution">if the window is open</span><span class="quote">] A cool breeze drifts in, helping you wake up a little. The sounds of fun tantalize you, but right now, you have more important things to do.</span>&quot; <span class="comment">[I bet you can figure out what this does! Notice that if statements do not require an else; here, we add to the description if the window is open, but do nothing if it's closed.&quot;]</span></p><p class="indent0">After opening the window, say &quot;<span class="quote">You push the window open, enjoying the cool rush of air in your face. From outside, you can hear sounds of laughter: someone, somewhere, is having a good time. Unlike you.</span>&quot; <span class="comment">[Again, you should be able to figure this out. While INSTEAD took the place of an action, AFTER lets the action complete, then does something else. In this case, we want to provide a message after the action is complete describing what happens. Note that messages like this usually replace the default messages built into Inform, though the rules about that are complicated.]</span></p><p class="indent0">After closing the window, say &quot;<span class="quote">You push the window shut and the sounds die away.</span>&quot;</p><p class="indent0">Your bed is a bed in your dorm room. The description is &quot;<span class="quote">[</span><span class="substitution">if the player is in your bed</span><span class="quote">]It cradles you comfortably. Soft blankets gently cocoon you, while the pillow caresses your... NO! You're not going back to sleep![</span><span class="substitution">else</span><span class="quote">]The bed's sheets and blankets lie rumpled and disarrayed where you flung them when you got up, and you know what? It still looks inviting.[</span><span class="substitution">end if</span><span class="quote">]</span>&quot;.</p><p class="indent0">Instead of entering your bed, say &quot;<span class="quote">If you get back in that bed, you will fall asleep, and you won't turn your paper in, and you will fail, and your whole life will be ruined! You don't really want that, do you?</span>&quot; <span class="comment">[The wording of the INSTEAD statement may seem strange, but Inform understands actions that lead to your being inside something as &quot;entering&quot;: an interactor who types &quot;get in bed&quot; will receive this response.]</span></p><p class="indent0">Your roommate's bed is a bed in your dorm room. The description is &quot;<span class="quote">Isn't it odd how one's own bed just seems different from anyone else's? It's like that: as tired as you are, your roommate's bed just doesn't look as comfortable. Also, it's currently quite full of [</span><span class="substitution">your roommate</span><span class="quote">].</span>&quot; <span class="comment">[As above, note that we can get away with this description only because your roommate will never leave the bed in the course of the game; otherwise we would have to change the description.]</span></p><p class="indent0">Instead of entering your roommate's bed, say &quot;<span class="quote">You've been roommates for a while, but you're not THAT close.</span>&quot;</p><p class="indent0"><a name="note1ref"></a><span class="notecue"><a href="#note1">[1]</a></span></p><p class="indent0">Does the player mean doing something to the your bed: it is likely. <span class="comment">[This statement helps us control how the game reacts to commands. There are two beds in the room: the one called &quot;your bed,&quot; and another to be introduced shortly called &quot;your roommate's bed.&quot; Without this sentence, every time the interactor tries to do something to a bed, Inform will ask which one--and because of quirks, it's hard to tell the parser that you mean your own bed. This sentence tells the parser that it's relatively likely for the interactor to try doing something with her own bed, i.e. a random command applied to a bed should probably be applied to &quot;your bed.&quot; The interactor can still do things to the roommate's bed by specifying that bed.]</span></p>
+</div>
+
+<div class ="notes">
+<p><span class="notesheading">Note</span></p>
+<p><a name="note1"></a><span class="notetext"><a href="#note1ref">[1]</a>. *If you're paying attention, you might have noticed that right now there's no way to interact with your roommate. Even though your roommate is in your room, characters are a little different from scenery, so I've decided to deal with them in their own section.</span></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

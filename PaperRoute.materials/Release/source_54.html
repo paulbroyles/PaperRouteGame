@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Paul Broyles - Paper Route — 56 of 57</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="Paul Broyles" />
+  <meta name="description" content="A page for the game Paper Route by Paul Broyles." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ </head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.jpg"><img src="Small Cover.jpg" border="1"></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>Paper Route</span> <span class="pagination">— 56 of 57</span>
+	</h1>
+	<h2>
+		<span>Paul Broyles</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 2</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.html">Beginning</a></li><li><a href="source_53.html">Previous</a></li><li><a href="source_55.html">Next</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">Part 3 - Other Custom Actions</span></p><p class="indent0">Swiping it in is an action applying to two things. Understand &quot;<span class="quote">swipe [</span><span class="substitution">something</span><span class="quote">] in [</span><span class="substitution">something</span><span class="quote">]</span>&quot; as swiping it in. <span class="comment">[While there are lots of words Inform already knows, &quot;swipe&quot; isn't one of them, so we have to define it. The first sentence creates the action--we always refer to actions using present participles. &quot;Applying to one thing&quot; tells us that the verb expects a direct object: we can't just swipe; we have to swipe something. The second sentence specifies how the interactor will carry out the action, by typing the command, &quot;swipe the thing.&quot; Note that so far, the action does nothing, and the player can swipe absolutely anything.]</span></p><p class="indent0">Searching for is an action applying to one visible thing. Understand &quot;<span class="quote">search for [</span><span class="substitution">something</span><span class="quote">]</span>&quot; as searching for. Instead of searching for something, say &quot;<span class="quote">You hardly know where to begin. Instead of searching for something, why not say where you want to look? Then you could start to narrow it down. For instance, you might [</span><span class="substitution">bold type</span><span class="quote">]search your bed[</span><span class="substitution">roman type</span><span class="quote">]...</span>&quot;</p><p class="indent0">After deciding the scope of the player while searching for, place the paper in scope.</p><p class="indent0">Using is an action applying to one thing. Understand &quot;<span class="quote">use [</span><span class="substitution">something</span><span class="quote">]</span>&quot; as using.</p><p class="indent0">Locking is an action applying to one thing. Understand &quot;<span class="quote">lock [</span><span class="substitution">something</span><span class="quote">]</span>&quot; as locking. <span class="comment">[The LOCKING action in Inform takes two objects; we create a special one-object version to issue a response of the player asks to lock the room door, which has no key.]</span></p><p class="indent0">Knocking on is an action with past participle knocked, applying to one thing. Understand &quot;<span class="quote">knock on [</span><span class="substitution">something</span><span class="quote">]</span>&quot; as knocking on. After knocking on a door, say &quot;<span class="quote">There is no answer.</span>&quot;</p><p class="indent0">Carry out knocking on a door: now the noun is knocked on. <span class="comment">[The CARRY OUT rule specifies the content of an action. In most examples, I've used INSTEAD rules, which actually prevent an action from taking place and do something else instead. Some Inform programmers would argue that using INSTEAD in this fashion is bad form, though I've chosen it because it's simpler. But this demonstrates a more robust way to build and modify actions: when we CARRY OUT knocking, the game considers it to have actually occurred, and in the course of doing it, gives the specified noun the &quot;knocked on&quot; property.]</span></p>
+</div>
+
+<div class ="notes">
+
+</div>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Paul Broyles - Paper Route — 44 of 57</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="Paul Broyles" />
+  <meta name="description" content="A page for the game Paper Route by Paul Broyles." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ </head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.jpg"><img src="Small Cover.jpg" border="1"></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>Paper Route</span> <span class="pagination">— 44 of 57</span>
+	</h1>
+	<h2>
+		<span>Paul Broyles</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 2</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.html">Beginning</a></li><li><a href="source_41.html">Previous</a></li><li><a href="source_43.html">Next</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">Chapter 2 - The Bus</span></p><p class="indent0">The bus is a vehicle. &quot;<span class="quote">A bus from the campus transit system sits next to the curb.</span>&quot; The description is &quot;<span class="quote">It's one of those fancy eco-friendly buses that runs on natural gas. The sign says it's heading to [</span><span class="substitution">if the bus is in Grassy area or the bus is outbound</span><span class="quote">]the office building[</span><span class="substitution">otherwise</span><span class="quote">]the dorm[</span><span class="substitution">end if</span><span class="quote">].</span>&quot;</p><p class="indent0">The bus is in Office lawn. <span class="comment">[This tells Inform where to put the bus first; it will move on its own from there, as specified below.]</span></p><p class="indent0">The bus can be either inbound or outbound. The bus is outbound. <span class="comment">[While before we've defined some optional properties, here we define an either/or property: the bus will always be either inbound or outbound. We must change this status as appropriate.]</span></p><p class="indent0">Instead of going a direction while the player is in the bus, say &quot;<span class="quote">Let the bus driver handle the navigation. The only thing you have to do is get off at the right stop.</span>&quot; <span class="comment">[Inform by default treats vehicles as &quot;driven&quot; by the player, so that the player's movements cause the vehicle to move. Since the bus is autonomous, we override that behavior by preventing movement while the player is on the bus.]</span></p><p class="indent0">Instead of entering the bus when the player does not have the ID card, say &quot;<span class="quote">You have to have your ID card to be able to board the campus busses.</span>&quot;</p><p class="indent0">The driver is a person in the bus. He is scenery. The description is &quot;<span class="quote">The driver is focused on the road.</span>&quot;</p><p class="indent0">Every turn: <span class="comment">[Unlike everything else in our game, the bus has a life of its own: it makes its circuit between the office and the dorm whether the player is interacting with it or not. EVERY TURN rules let us specify things that happen every turn, no matter what. If we wanted to perform these actions only when certain conditions are met, we could use an EVERY TURN WHEN... rule instead.]</span></p><p class="indent1">if the bus is in Office lawn for the third turn: <span class="comment">[&quot;for the third turn&quot; in this case means for the third turn IN A ROW. So, the bus will arrive, wait two turns, and depart.]</span></p><p class="indent2">now the bus is inbound;</p><p class="indent2">try the bus going southeast; <span class="comment">[You've seen this before, but I haven't explained it yet. TRY is how we tell something in the game to do something during code; as the Inform documentation says, the word &quot;try&quot; is meant to indicate that the action may not be successful -- that is, something might prevent the bus from going southeast.]</span></p><p class="indent1">otherwise if the bus is in Grassy area for the third turn:</p><p class="indent2">now the bus is outbound;</p><p class="indent2">try the bus going northeast;</p><p class="indent1">otherwise if the bus is in the road:</p><p class="indent2">if the bus is inbound:</p><p class="indent3">try the bus going southwest;</p><p class="indent2">otherwise:</p><p class="indent3">try the bus going northwest.</p><p class="indent0">Instead of getting off the bus: try exiting. <span class="comment">[Inform interprets &quot;get off&quot; to mean stop standing atop something. But an interactor might very well want to &quot;get off bus,&quot; so we redirect that action.]</span></p><p class="indent0">Instead of taking the bus when the player is not in the bus: try entering the bus. <span class="comment">[Likewise, a player might try to &quot;take bus,&quot; so we redirect that.]</span></p>
+</div>
+
+<div class ="notes">
+
+</div>
+
+</div>
+
+</body>
+
+</html>

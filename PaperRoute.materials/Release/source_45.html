@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Paul Broyles - Paper Route — 47 of 57</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="Paul Broyles" />
+  <meta name="description" content="A page for the game Paper Route by Paul Broyles." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ </head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.jpg"><img src="Small Cover.jpg" border="1"></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>Paper Route</span> <span class="pagination">— 47 of 57</span>
+	</h1>
+	<h2>
+		<span>Paul Broyles</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 2</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.html">Beginning</a></li><li><a href="source_44.html">Previous</a></li><li><a href="source_46.html">Next</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">Chapter 2 - Bus Description</span></p><p class="indent0">After the bus going when the player is in the bus: try looking. <span class="comment">[This line resolves a problem caused by making the bus autonomous. When a player moves from room to room, it's typical to print a description of the room entered. But that doesn't happen automatically when the player is in something else that moves, like a vehicle. This command, the equivalent of the player's typing LOOK every time the bus moves, solves the problem.]</span></p><p class="indent0">Instead of looking when the player is in the bus: <span class="comment">[By default, looking inside a vehicle is no different from looking when outside it. But it doesn't make sense for the player to have a full view of the scenery when inside the bus, so we can replace that description with something different. My approach is very inelegant, but it works, and honestly, I haven't found a better one yet.]</span></p><p class="indent1">follow the room description heading rule; <span class="comment">[We need this line in order to get the nice bolded heading telling us where we are, since we're replacing the normal action of LOOK.]</span></p><p class="indent1">say &quot;<span class="quote">The bus is fairly empty. Outside the windows, you can see [</span><span class="substitution">if the bus is in Office lawn</span><span class="quote">]the office building[</span><span class="substitution">otherwise if the bus is in Grassy area</span><span class="quote">]your dorm[</span><span class="substitution">otherwise</span><span class="quote">]the road through campus[</span><span class="substitution">end if</span><span class="quote">].</span>&quot;.</p><p class="indent1"></p>
+</div>
+
+<div class ="notes">
+
+</div>
+
+</div>
+
+</body>
+
+</html>

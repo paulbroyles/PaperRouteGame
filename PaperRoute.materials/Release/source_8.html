@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Paul Broyles - Paper Route — 10 of 57</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="Paul Broyles" />
+  <meta name="description" content="A page for the game Paper Route by Paul Broyles." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ </head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.jpg"><img src="Small Cover.jpg" border="1"></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>Paper Route</span> <span class="pagination">— 10 of 57</span>
+	</h1>
+	<h2>
+		<span>Paul Broyles</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 2</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.html">Beginning</a></li><li><a href="source_7.html">Previous</a></li><li><a href="source_9.html">Next</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">Section 4 - The Door</span></p><p class="indent0">A door called your room door is north of your room. It is lockable and unlocked. The description is &quot;<span class="quote">What is there to say, really? It's a door. It lets you in and out of your dorm room. Right now it is [</span><span class="substitution">if your room door is open</span><span class="quote">]open[</span><span class="substitution">else</span><span class="quote">]closed[</span><span class="substitution">end if</span><span class="quote">].</span>&quot; <span class="comment">[Doors are a special concept in Inform, and to explain this line, I have to digress for a minute. By longstanding convention, the locations in interactive fiction are laid out according to compass directions: north, east, south, and west, as well as northeast, northwest, southeast, and southwest. (Don't think of these as literal compass directions; they just describe the position of places relative to each other.) We connect rooms by specifying their direction from each other, and interactors move among them by going in a specific direction. Doors are a special kind of object that connects rooms. By default, they are openable and closable; you can also make them lockable (which we will see shortly). To create a door, you specify what direction it's in, just as if you were making a new room.]</span></p><p class="indent0">Before locking your room door, say &quot;<span class="quote">There's no time to bother with locking your door now! Also, you have no idea where under your piles of stuff you might find your keys.</span>&quot; <span class="comment">[Every other time we've wanted to avoid an action, we've used INSTEAD. Why BEFORE here? When the interactor instructs the parser to lock the door, the first thing the parser is going to do is check to see whether the person has a key matching the door. The answer to that is no, because there is no such key in the game. So, the parser will not get as far as INSTEAD, because first it will give a message that you don't have the key. We want the reader to get a more informative response, so we return this response before the game checks on those things. By default, BEFORE, like INSTEAD, prevents the action from occurring.]</span></p><p class="indent0"><span class="comment">[That will about do it for the dorm room. We've written a lot of descriptions and rules, because we want to be prepared for things an interactor might try. But notice that there's lots we haven't written about. We could have provided a desk chair, for instance, and made the interactor sit down to use the computer, but that would be distracting more than enriching. In a real dorm, your roommate would have a separate desk, but that doesn't matter to the scene we're writing. We haven't described any art, decorations, or personal items, because for our game, what matters about the room is that it's messy. And this is one of the most detailed rooms in the game, since an actor who's just getting started will spend a good bit of time here. So as you design your own rooms, think about how the details you choose affect the experience, and make sure they serve the story.]</span></p>
+</div>
+
+<div class ="notes">
+
+</div>
+
+</div>
+
+</body>
+
+</html>
