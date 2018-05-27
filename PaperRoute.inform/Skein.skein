@@ -1,35 +1,50 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x7b610110" xmlns="http://www.logicalshift.org.uk/IF/Skein">
-  <generator>Zoom</generator>
-  <activeNode nodeId="node-0x7b610110" />
-  <item nodeId="node-0x7b610110">
-    <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">
+
+<Skein rootNode="node-1002">
+    <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
+    <item nodeId="node-1002">
+        <command xml:space="preserve">PaperRoute</command>
+        <result xml:space="preserve">
 
 
-Burning the midnight oil, they call it! Midnight&apos;s a normal night for you, but this paper you&apos;ve been writing for your professor has taken you many hours past that. After a miserable, exhausting night, you crawled into your bed for a few hours of rest before handing the beast in. You aren&apos;t having class today, but your professor said you should bring the paper to his office and hand it in to him by the time your class would normally begin. Morning approaches...
+Burning the midnight oil, they call it! Midnight's a normal night for you, but this paper you've been writing for your professor has taken you many hours past that. After a miserable, exhausting night, you crawled into your bed for a few hours of rest before handing the beast in. You aren't having class today, but your professor said you should bring the paper to his office and hand it in to him by the time your class would normally begin. Morning approaches...
 
 Paper Route
-An Interactive Fiction by Paul Broyles The story creation year is 2016
-Release 2 / Serial number 160219 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+An Interactive Fiction by Paul Broyles
+Release 3 / Serial number 180527 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Your dorm room (in your bed)
 The ceiling of your dorm room stares down at you, as it does most mornings. Out of the corners of your eyes, you make out a sea of chaos around you. The plain, unmarked ceiling is reassuring by comparison.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="155">NO</temporary>
-    <children>
-      <child nodeId="node-0x7ceefe80" />
-      <child nodeId="node-0x7ceefe10" />
-      <child nodeId="node-0x7ceeeec0" />
-      <child nodeId="node-0x7b610180" />
-    </children>
-  </item>
-  <item nodeId="node-0x7b610180">
-    <command xml:space="preserve">get up</command>
-    <result xml:space="preserve">You get out of your bed.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1083"></child>
+            <child nodeId="node-1072"></child>
+            <child nodeId="node-1004"></child>
+            <child nodeId="node-1120"></child>
+            <child nodeId="node-1003"></child>
+        </children>
+    </item>
+    <item nodeId="node-1003">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1120">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Your dorm room (in your bed)
+The ceiling of your dorm room stares down at you, as it does most mornings. Out of the corners of your eyes, you make out a sea of chaos around you. The plain, unmarked ceiling is reassuring by comparison.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1121"></child>
+        </children>
+    </item>
+    <item nodeId="node-1121">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">You get out of your bed.
 
 Your dorm room
 Your room is a mess--hardly surprising, given the all-nighter you pulled. books and papers are strewn everywhere. To the north, your room door leads to the main hallway.
@@ -38,72 +53,83 @@ You can see your ID card half sticking out under the piles of stuff on your desk
 
 Your computer sits in the middle of the desk, a blank spot at the eye of the storm.
 
-You can see your bed (empty) and your roommate&apos;s bed (in which is your roommate) here.
+You can see your bed (empty) and your roommate's bed (in which is your roommate) here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceedad0" />
-      <child nodeId="node-0x7b6101d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7b6101d0">
-    <command xml:space="preserve">turn on computer</command>
-    <result xml:space="preserve">You switch the computer on.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1122"></child>
+        </children>
+    </item>
+    <item nodeId="node-1122">
+        <command xml:space="preserve">get id</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed270" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed270">
-    <command xml:space="preserve">search computer</command>
-    <result xml:space="preserve">Your fingers fly across the keys as exciting music swells in the background. You found the paper! You are a hacker genius! Or at least you know how to work the search box. Now, to get it out of the computer...
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1123"></child>
+        </children>
+    </item>
+    <item nodeId="node-1123">
+        <command xml:space="preserve">turn on computer</command>
+        <result xml:space="preserve">You switch the computer on.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed2c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed2c0">
-    <command xml:space="preserve">print paper</command>
-    <result xml:space="preserve">The progress bar on your computer ticks away with excruciating slowness, but at last it hits 100%. There! It&apos;s done!
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1124"></child>
+        </children>
+    </item>
+    <item nodeId="node-1124">
+        <command xml:space="preserve">search computer</command>
+        <result xml:space="preserve">Your fingers fly across the keys as exciting music swells in the background. You found the paper! You are a hacker genius! Or at least you know how to work the search box. Now, to get it out of the computer...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1125"></child>
+        </children>
+    </item>
+    <item nodeId="node-1125">
+        <command xml:space="preserve">print paper</command>
+        <result xml:space="preserve">The progress bar on your computer ticks away with excruciating slowness, but at last it hits 100%. There! It's done!
 
 You strain your ears for the whirring sounds of paper and ink nozzles. Nothing. Err...
 
-It slowly dawns on you that you don&apos;t actually own a printer. But it&apos;s clearly printed to somewhere. If only you weren&apos;t too tired to remember where.
+It slowly dawns on you that you don't actually own a printer. But it's clearly printed to somewhere. If only you weren't too tired to remember where.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed310" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed310">
-    <command xml:space="preserve">get id</command>
-    <result xml:space="preserve">Taken.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1126"></child>
+        </children>
+    </item>
+    <item nodeId="node-1126">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed360" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed360">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening your room door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1127"></child>
+        </children>
+    </item>
+    <item nodeId="node-1127">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1128"></child>
+        </children>
+    </item>
+    <item nodeId="node-1128">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">But you aren't in anything at the moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1129"></child>
+        </children>
+    </item>
+    <item nodeId="node-1129">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening your room door)
 
 Dorm hallway
 The hallway runs from one end of the dorm to the other, lined with identical room doors. At one end, to the west, is the computer lab. To the east, a door leads outside. Your dorm room is to the south.
@@ -111,141 +137,139 @@ The hallway runs from one end of the dorm to the other, lined with identical roo
 You can see a lab swipe box here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed430" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed430">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">(first opening the computer lab door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed480" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed480">
-    <command xml:space="preserve">swipe card</command>
-    <result xml:space="preserve">(in the lab swipe box)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1130"></child>
+        </children>
+    </item>
+    <item nodeId="node-1130">
+        <command xml:space="preserve">swipe id</command>
+        <result xml:space="preserve">(in the lab swipe box)
 The door to the computer lab unlocks with a click.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed4d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed4d0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">(first opening the computer lab door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1131"></child>
+        </children>
+    </item>
+    <item nodeId="node-1131">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening the computer lab door)
 
 computer lab
-The computer lab is full of stacks of cash--except the stacks of cash take the shape of shiny new computers. On a table near the front there&apos;s a printer with a pay box next to it. There&apos;s a stapler on the table as well. The large glass door leads back east to the main hallway.
+The computer lab is full of stacks of cash--except the stacks of cash take the shape of shiny new computers. On a table near the front there's a printer with a pay box next to it. There's a stapler on the table as well. The large glass door leads back east to the main hallway.
 
 You can see a table here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed540" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed540">
-    <command xml:space="preserve">swipe card</command>
-    <result xml:space="preserve">(in the pay box)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1132"></child>
+        </children>
+    </item>
+    <item nodeId="node-1132">
+        <command xml:space="preserve">x stacks</command>
+        <result xml:space="preserve">Come on, don't you know what a metaphor is? Maybe they need to invest some of that technology budget in English classes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1133"></child>
+        </children>
+    </item>
+    <item nodeId="node-1133">
+        <command xml:space="preserve">x cash</command>
+        <result xml:space="preserve">Come on, don't you know what a metaphor is? Maybe they need to invest some of that technology budget in English classes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1134"></child>
+        </children>
+    </item>
+    <item nodeId="node-1134">
+        <command xml:space="preserve">swipe</command>
+        <result xml:space="preserve">(the ID card in the pay box)
 With a whirring sound, the printer roars to life and spits out a series of white pages, face down. You hardly dare to hope...
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed5b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed5b0">
-    <command xml:space="preserve">get paper</command>
-    <result xml:space="preserve">Taken.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1135"></child>
+        </children>
+    </item>
+    <item nodeId="node-1135">
+        <command xml:space="preserve">get paper</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed6e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed6e0">
-    <command xml:space="preserve">open drawer</command>
-    <result xml:space="preserve">You open the drawer, revealing some staples.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1136"></child>
+        </children>
+    </item>
+    <item nodeId="node-1136">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You open the drawer, revealing some staples.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed3d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed3d0">
-    <command xml:space="preserve">put staples in stapler</command>
-    <result xml:space="preserve">(first taking the staples)
-You put the staples into the stapler.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1137"></child>
+        </children>
+    </item>
+    <item nodeId="node-1137">
+        <command xml:space="preserve">get staples</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed750" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed750">
-    <command xml:space="preserve">staple paper</command>
-    <result xml:space="preserve">(with the stapler)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1138"></child>
+        </children>
+    </item>
+    <item nodeId="node-1138">
+        <command xml:space="preserve">put staples in stapler</command>
+        <result xml:space="preserve">You put the staples into the stapler.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1139"></child>
+        </children>
+    </item>
+    <item nodeId="node-1139">
+        <command xml:space="preserve">staple paper</command>
+        <result xml:space="preserve">(with the stapler)
 The stapler closes on the paper with a satisfying click. There, your pages will stay together.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed7c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed7c0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1140"></child>
+        </children>
+    </item>
+    <item nodeId="node-1140">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">computer lab
+The computer lab is full of stacks of cash--except the stacks of cash take the shape of shiny new computers. On a table near the front there's a printer with a pay box next to it. There's a stapler on the table as well. The large glass door leads back east to the main hallway.
+
+You can see a table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1141"></child>
+        </children>
+    </item>
+    <item nodeId="node-1141">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
 Dorm hallway
 The hallway runs from one end of the dorm to the other, lined with identical room doors. At one end, to the west, is the computer lab. To the east, a door leads outside. Your dorm room is to the south.
 
 You can see a lab swipe box here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed830" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed830">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the main door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1142"></child>
+        </children>
+    </item>
+    <item nodeId="node-1142">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the main door)
 
 Grassy area
-A large grassy expanse lies in front of the dorm. A quiet footpath meanders north toward your professor&apos;s office. A street runs to the northeast.
+A large grassy expanse lies in front of the dorm. A quiet footpath meanders north toward your professor's office. A street runs to the northeast.
 
 A bus from the campus transit system sits next to the curb.
 
@@ -253,161 +277,131 @@ A student lies sprawled on a blanket on the grass, studying.
 
 You can also see a bicycle here.
 
-You feel a sudden surge of panic. You glance at your wrist, but of course you never wear a watch. Still, you have this sudden feeling that you&apos;re running out of time. You&apos;d better get the paper in fast!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed8a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed8a0">
-    <command xml:space="preserve">ask student about bike</command>
-    <result xml:space="preserve">&quot;If it&apos;s that much of an emergency, I&apos;d let you borrow it,&quot; she tells you. &quot;But I&apos;d need you to leave something important with me so I can be sure you&apos;ll bring it back.&quot;
+You feel a sudden surge of panic. You glance at your wrist, but of course you never wear a watch. Still, you have this sudden feeling that you're running out of time. You'd better get the paper in fast!
 
 The bus goes northeast.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed910" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed910">
-    <command xml:space="preserve">give it to student</command>
-    <result xml:space="preserve">(first taking the bicycle)
-&quot;Ahem.&quot; The student has torn herself away from her book and is glaring at you. &quot;That&apos;s mine. You aren&apos;t stealing, are you?
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1143"></child>
+        </children>
+    </item>
+    <item nodeId="node-1143">
+        <command xml:space="preserve">get bike</command>
+        <result xml:space="preserve">"Ahem." The student has torn herself away from her book and is glaring at you. "That's mine. You aren't stealing, are you?
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed980" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed980">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Grassy area
-[Previous turn undone.]
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1144"></child>
+        </children>
+    </item>
+    <item nodeId="node-1144">
+        <command xml:space="preserve">ask student about bike</command>
+        <result xml:space="preserve">"If it's that much of an emergency, I'd let you borrow it," she tells you. "But I'd need you to leave something important with me so I can be sure you'll bring it back."
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed620" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed620">
-    <command xml:space="preserve">give id to student</command>
-    <result xml:space="preserve">&quot;Yeah, that should work,&quot; she says, smiling. &quot;You&apos;ll have to come back if you want to eat. Okay, you can borrow my bicycle.&quot; Your ID card disappears into her pocket.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1145"></child>
+        </children>
+    </item>
+    <item nodeId="node-1145">
+        <command xml:space="preserve">give id to student</command>
+        <result xml:space="preserve">"Yeah, that should work," she says, smiling. "You'll have to come back if you want to eat. Okay, you can borrow my bicycle." Your ID card disappears into her pocket.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed670" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed670">
-    <command xml:space="preserve">ride bike</command>
-    <result xml:space="preserve">You mount the bicycle.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1146"></child>
+        </children>
+    </item>
+    <item nodeId="node-1146">
+        <command xml:space="preserve">ride bike</command>
+        <result xml:space="preserve">You mount the bicycle.
+
+The bus goes southwest.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceedb70" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceedb70">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1147"></child>
+        </children>
+    </item>
+    <item nodeId="node-1147">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
 Road (on the bicycle)
 The road through campus is lightly traficked. It bends to the northwest, and stretches behind to the southwest.
 
-The bus goes southeast.
-
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceedbe0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceedbe0">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1148"></child>
+        </children>
+    </item>
+    <item nodeId="node-1148">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
 Office lawn (on the bicycle)
-You are standing in a small grassy area in front of a white house, with a wooden front door leading in. Yes, it&apos;s an old house. It&apos;s also an office building. Just one of the oddities you might run into on a campus that&apos;s slowly eating up its town.
+You are standing in a small grassy area in front of a white house, with a wooden front door leading in. Yes, it's an old house. It's also an office building. Just one of the oddities you might run into on a campus that's slowly eating up its town.
 
 A graduate student sits on the grass in front of the building, his nose in a book.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceedc50" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceedc50">
-    <command xml:space="preserve">get off</command>
-    <result xml:space="preserve">You dismount the bicycle.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1149"></child>
+        </children>
+    </item>
+    <item nodeId="node-1149">
+        <command xml:space="preserve">dismount</command>
+        <result xml:space="preserve">You dismount the bicycle.
 
 Office lawn
-You are standing in a small grassy area in front of a white house, with a wooden front door leading in. Yes, it&apos;s an old house. It&apos;s also an office building. Just one of the oddities you might run into on a campus that&apos;s slowly eating up its town.
+You are standing in a small grassy area in front of a white house, with a wooden front door leading in. Yes, it's an old house. It's also an office building. Just one of the oddities you might run into on a campus that's slowly eating up its town.
 
 A graduate student sits on the grass in front of the building, his nose in a book.
 
 You can also see a bicycle here.
 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceedcc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceedcc0">
-    <command xml:space="preserve">ask student about door</command>
-    <result xml:space="preserve">&quot;Oh, sure, I can let you in,&quot; he says. He rises, goes over to the door, and fumbles in his pocket for a moment before producing the key with a look of triumph. &quot;Here we go!&quot; he exclaims, turning the key in the lock. Or trying to. It&apos;s stuck. With mounting frustration you watch as he fiddles with the knob, but finally, the door unlocks with a click. The student heaves a sigh and returns to where he was sitting before, looking forlornly at the book.
+The bus arrives from the southeast.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceedd30" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceedd30">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the front door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1150"></child>
+        </children>
+    </item>
+    <item nodeId="node-1150">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening the front door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1151"></child>
+        </children>
+    </item>
+    <item nodeId="node-1151">
+        <command xml:space="preserve">ask grad student about key</command>
+        <result xml:space="preserve">"Oh, sure, I can let you in," he says. He rises, goes over to the door, and fumbles in his pocket for a moment before producing the key with a look of triumph. "Here we go!" he exclaims, turning the key in the lock. Or trying to. It's stuck. With mounting frustration you watch as he fiddles with the knob, but finally, the door unlocks with a click. The student heaves a sigh and returns to where he was sitting before, looking forlornly at the book.
+
+The bus goes southeast.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1152"></child>
+        </children>
+    </item>
+    <item nodeId="node-1152">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening the front door)
 
 Foyeur
 Along one side of the hall is a row of mailboxes, labeled with the names of various professors. Opposite the mailboxes, you see a closed door to the west. A hall stretches on to the north.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceedda0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceedda0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1153"></child>
+        </children>
+    </item>
+    <item nodeId="node-1153">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
 Office hall
 A short hallway stretches toward the back of the building, where it ends in a small window overlooking a parking lot.
 
@@ -416,73 +410,61 @@ A door to the east leads to an office. It is closed.
 A closed door with no nameplate is set into the west wall.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceede10" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceede10">
-    <command xml:space="preserve">knock</command>
-    <result xml:space="preserve">(on professor&apos;s door)
-&quot;Come in,&quot; a voice calls from within.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1154"></child>
+        </children>
+    </item>
+    <item nodeId="node-1154">
+        <command xml:space="preserve">knock</command>
+        <result xml:space="preserve">(on professor's door)
+"Come in," a voice calls from within.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceede80" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceede80">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening professor&apos;s door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1155"></child>
+        </children>
+    </item>
+    <item nodeId="node-1155">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening professor's door)
 
-Professor&apos;s office
-The professor&apos;s office seems to overflow with learning. Bookshelves line the walls, filled with tomes bearing obscure and incomprehensible titles.
+Professor's office
+The professor's office seems to overflow with learning. Bookshelves line the walls, filled with tomes bearing obscure and incomprehensible titles.
 
 A door to the east leads to an office. Inside, you can see your professor.
 
 The professor sits behind the large desk, looking intently at a book.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceedef0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceedef0">
-    <command xml:space="preserve">give paper to professor</command>
-    <result xml:space="preserve">(the professor)
-You nervously hand over the paper. The professor glances down at the front page. With a sigh, the paper disappears somewhere into the professor&apos;s voluminous desk.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1156"></child>
+        </children>
+    </item>
+    <item nodeId="node-1156">
+        <command xml:space="preserve">give paper to professor</command>
+        <result xml:space="preserve">(the professor)
+You nervously hand over the paper. The professor glances down at the front page. With a sigh, the paper disappears somewhere into the professor's voluminous desk.
+
+You can hear bells in the distance, their melodious chime floating across campus on the breeze. The deadline is here. You breathe a sigh of relief at having gotten your paper in.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceedf60" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceedf60">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1157"></child>
+        </children>
+    </item>
+    <item nodeId="node-1157">
+        <command xml:space="preserve">ask professor about paper</command>
+        <result xml:space="preserve">(the professor about that)
+"You've already turned it in," the professor replies. "Now I've got to grade it."
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceedfd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceedfd0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1158"></child>
+        </children>
+    </item>
+    <item nodeId="node-1158">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
 Office hall
 A short hallway stretches toward the back of the building, where it ends in a small window overlooking a parking lot.
 
@@ -490,33 +472,25 @@ A door to the east leads to an office. Inside, you can see your professor.
 
 A closed door with no nameplate is set into the west wall.
 
-You can hear bells in the distance, their melodious chime floating across campus on the breeze. The deadline is here. You breathe a sigh of relief at having gotten your paper in.
-
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceed9f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceed9f0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1159"></child>
+        </children>
+    </item>
+    <item nodeId="node-1159">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
 Foyeur
 Along one side of the hall is a row of mailboxes, labeled with the names of various professors. Opposite the mailboxes, you see a closed door to the west. A hall stretches on to the north.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="155">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeda60" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeda60">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You leave the office and trudge back to your dorm, stopping along the way to collect your ID card. You arrive to find your roommate gone, apparently having decided to go to class for once. Exhausted, you sink into your soft bed, ready to get some rest at last.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1160"></child>
+        </children>
+    </item>
+    <item nodeId="node-1160">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You leave the office and trudge back to your dorm, stopping along the way to collect your ID card. You arrive to find your roommate gone, apparently having decided to go to class for once. Exhausted, you sink into your soft bed, ready to get some rest at last.
 
 Several weeks later, you finally hear about your paper. In the end, after all that work, your grade on the paper is A.
 
@@ -529,65 +503,77 @@ Several weeks later, you finally hear about your paper. In the end, after all th
 
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="154">YES</temporary>
-  </item>
-  <item nodeId="node-0x7ceedad0">
-    <command xml:space="preserve">get id</command>
-    <result xml:space="preserve">Taken.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1161"></child>
+        </children>
+    </item>
+    <item nodeId="node-1161">
+        <command xml:space="preserve">quit</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1004">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">You get out of your bed.
+
+Your dorm room
+Your room is a mess--hardly surprising, given the all-nighter you pulled. books and papers are strewn everywhere. To the north, your room door leads to the main hallway.
+
+You can see your ID card half sticking out under the piles of stuff on your desk.
+
+Your computer sits in the middle of the desk, a blank spot at the eye of the storm.
+
+You can see your bed (empty) and your roommate's bed (in which is your roommate) here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee280" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee280">
-    <command xml:space="preserve">turn on computer</command>
-    <result xml:space="preserve">You switch the computer on.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1038"></child>
+            <child nodeId="node-1005"></child>
+        </children>
+    </item>
+    <item nodeId="node-1005">
+        <command xml:space="preserve">turn on computer</command>
+        <result xml:space="preserve">You switch the computer on.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee2f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee2f0">
-    <command xml:space="preserve">search computer</command>
-    <result xml:space="preserve">Your fingers fly across the keys as exciting music swells in the background. You found the paper! You are a hacker genius! Or at least you know how to work the search box. Now, to get it out of the computer...
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1006"></child>
+        </children>
+    </item>
+    <item nodeId="node-1006">
+        <command xml:space="preserve">search computer</command>
+        <result xml:space="preserve">Your fingers fly across the keys as exciting music swells in the background. You found the paper! You are a hacker genius! Or at least you know how to work the search box. Now, to get it out of the computer...
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee360" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee360">
-    <command xml:space="preserve">print paper</command>
-    <result xml:space="preserve">The progress bar on your computer ticks away with excruciating slowness, but at last it hits 100%. There! It&apos;s done!
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1007"></child>
+        </children>
+    </item>
+    <item nodeId="node-1007">
+        <command xml:space="preserve">print paper</command>
+        <result xml:space="preserve">The progress bar on your computer ticks away with excruciating slowness, but at last it hits 100%. There! It's done!
 
 You strain your ears for the whirring sounds of paper and ink nozzles. Nothing. Err...
 
-It slowly dawns on you that you don&apos;t actually own a printer. But it&apos;s clearly printed to somewhere. If only you weren&apos;t too tired to remember where.
+It slowly dawns on you that you don't actually own a printer. But it's clearly printed to somewhere. If only you weren't too tired to remember where.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee3d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee3d0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening your room door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1008"></child>
+        </children>
+    </item>
+    <item nodeId="node-1008">
+        <command xml:space="preserve">get id</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1009"></child>
+        </children>
+    </item>
+    <item nodeId="node-1009">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening your room door)
 
 Dorm hallway
 The hallway runs from one end of the dorm to the other, lined with identical room doors. At one end, to the west, is the computer lab. To the east, a door leads outside. Your dorm room is to the south.
@@ -595,294 +581,240 @@ The hallway runs from one end of the dorm to the other, lined with identical roo
 You can see a lab swipe box here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee440" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee440">
-    <command xml:space="preserve">swipe card</command>
-    <result xml:space="preserve">(in the lab swipe box)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1010"></child>
+        </children>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening the computer lab door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1011"></child>
+        </children>
+    </item>
+    <item nodeId="node-1011">
+        <command xml:space="preserve">swipe card</command>
+        <result xml:space="preserve">(in the lab swipe box)
 The door to the computer lab unlocks with a click.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee4b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee4b0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">(first opening the computer lab door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+        </children>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening the computer lab door)
 
 computer lab
-The computer lab is full of stacks of cash--except the stacks of cash take the shape of shiny new computers. On a table near the front there&apos;s a printer with a pay box next to it. There&apos;s a stapler on the table as well. The large glass door leads back east to the main hallway.
+The computer lab is full of stacks of cash--except the stacks of cash take the shape of shiny new computers. On a table near the front there's a printer with a pay box next to it. There's a stapler on the table as well. The large glass door leads back east to the main hallway.
 
 You can see a table here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee520" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee520">
-    <command xml:space="preserve">swipe card</command>
-    <result xml:space="preserve">(in the pay box)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1013"></child>
+        </children>
+    </item>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">swipe card</command>
+        <result xml:space="preserve">(in the pay box)
 With a whirring sound, the printer roars to life and spits out a series of white pages, face down. You hardly dare to hope...
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee590" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee590">
-    <command xml:space="preserve">get paper</command>
-    <result xml:space="preserve">Taken.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1014"></child>
+        </children>
+    </item>
+    <item nodeId="node-1014">
+        <command xml:space="preserve">get paper</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee600" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee600">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1015"></child>
+        </children>
+    </item>
+    <item nodeId="node-1015">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You open the drawer, revealing some staples.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1016"></child>
+        </children>
+    </item>
+    <item nodeId="node-1016">
+        <command xml:space="preserve">put staples in stapler</command>
+        <result xml:space="preserve">(first taking the staples)
+You put the staples into the stapler.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1017"></child>
+        </children>
+    </item>
+    <item nodeId="node-1017">
+        <command xml:space="preserve">staple paper</command>
+        <result xml:space="preserve">(with the stapler)
+The stapler closes on the paper with a satisfying click. There, your pages will stay together.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1018"></child>
+        </children>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
 Dorm hallway
 The hallway runs from one end of the dorm to the other, lined with identical room doors. At one end, to the west, is the computer lab. To the east, a door leads outside. Your dorm room is to the south.
 
 You can see a lab swipe box here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee670" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee670">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the main door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1019"></child>
+        </children>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the main door)
 
 Grassy area
-A large grassy expanse lies in front of the dorm. A quiet footpath meanders north toward your professor&apos;s office. A street runs to the northeast.
+A large grassy expanse lies in front of the dorm. A quiet footpath meanders north toward your professor's office. A street runs to the northeast.
+
+A bus from the campus transit system sits next to the curb.
 
 A student lies sprawled on a blanket on the grass, studying.
 
 You can also see a bicycle here.
 
-You feel a sudden surge of panic. You glance at your wrist, but of course you never wear a watch. Still, you have this sudden feeling that you&apos;re running out of time. You&apos;d better get the paper in fast!
+You feel a sudden surge of panic. You glance at your wrist, but of course you never wear a watch. Still, you have this sudden feeling that you're running out of time. You'd better get the paper in fast!
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee6e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee6e0">
-    <command xml:space="preserve">ask the student about the bus</command>
-    <result xml:space="preserve">&quot;It comes every couple of minutes,&quot; she answers. &quot;Just wait around; it&apos;ll show up.&quot;
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee750" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee750">
-    <command xml:space="preserve">ask the student about bus</command>
-    <result xml:space="preserve">&quot;It comes every couple of minutes,&quot; she answers. &quot;Just wait around; it&apos;ll show up.&quot;
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee7c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee7c0">
-    <command xml:space="preserve">take bus</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee830" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee830">
-    <command xml:space="preserve">attack student</command>
-    <result xml:space="preserve">Feeling desperate and aggressive, you hurl yourself at the student, fists flying. She goes out like a light. Let&apos;s see her stop you from taking that bicycle now! But despite your bravado, your stomach twists nervously.
-
-The bus arrives from the northeast.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee8a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee8a0">
-    <command xml:space="preserve">get bike</command>
-    <result xml:space="preserve">You mount the bicycle.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee910" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee910">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">
-Road (on the bicycle)
-The road through campus is lightly traficked. It bends to the northwest, and stretches behind to the southwest.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1020"></child>
+        </children>
+    </item>
+    <item nodeId="node-1020">
+        <command xml:space="preserve">ask student about bike</command>
+        <result xml:space="preserve">"If it's that much of an emergency, I'd let you borrow it," she tells you. "But I'd need you to leave something important with me so I can be sure you'll bring it back."
 
 The bus goes northeast.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee980" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee980">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1021"></child>
+        </children>
+    </item>
+    <item nodeId="node-1021">
+        <command xml:space="preserve">give it to student</command>
+        <result xml:space="preserve">(first taking the bicycle)
+"Ahem." The student has torn herself away from her book and is glaring at you. "That's mine. You aren't stealing, are you?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1022"></child>
+        </children>
+    </item>
+    <item nodeId="node-1022">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Grassy area
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1023"></child>
+        </children>
+    </item>
+    <item nodeId="node-1023">
+        <command xml:space="preserve">give id to student</command>
+        <result xml:space="preserve">"Yeah, that should work," she says, smiling. "You'll have to come back if you want to eat. Okay, you can borrow my bicycle." Your ID card disappears into her pocket.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1024"></child>
+        </children>
+    </item>
+    <item nodeId="node-1024">
+        <command xml:space="preserve">ride bike</command>
+        <result xml:space="preserve">You mount the bicycle.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1025"></child>
+        </children>
+    </item>
+    <item nodeId="node-1025">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Road (on the bicycle)
+The road through campus is lightly traficked. It bends to the northwest, and stretches behind to the southwest.
+
+The bus goes southeast.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1026"></child>
+        </children>
+    </item>
+    <item nodeId="node-1026">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
 Office lawn (on the bicycle)
-You are standing in a small grassy area in front of a white house, with a wooden front door leading in. Yes, it&apos;s an old house. It&apos;s also an office building. Just one of the oddities you might run into on a campus that&apos;s slowly eating up its town.
+You are standing in a small grassy area in front of a white house, with a wooden front door leading in. Yes, it's an old house. It's also an office building. Just one of the oddities you might run into on a campus that's slowly eating up its town.
 
 A graduate student sits on the grass in front of the building, his nose in a book.
 
-The bus goes northwest.
-
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee040" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee040">
-    <command xml:space="preserve">get off</command>
-    <result xml:space="preserve">You dismount the bicycle.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1027"></child>
+        </children>
+    </item>
+    <item nodeId="node-1027">
+        <command xml:space="preserve">get off</command>
+        <result xml:space="preserve">You dismount the bicycle.
 
 Office lawn
-You are standing in a small grassy area in front of a white house, with a wooden front door leading in. Yes, it&apos;s an old house. It&apos;s also an office building. Just one of the oddities you might run into on a campus that&apos;s slowly eating up its town.
-
-A bus from the campus transit system sits next to the curb.
+You are standing in a small grassy area in front of a white house, with a wooden front door leading in. Yes, it's an old house. It's also an office building. Just one of the oddities you might run into on a campus that's slowly eating up its town.
 
 A graduate student sits on the grass in front of the building, his nose in a book.
 
 You can also see a bicycle here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee0b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee0b0">
-    <command xml:space="preserve">attack student</command>
-    <result xml:space="preserve">Something inside you snaps. All of your exhaustion and frustration are too much to take, and your body fills with violent energy. You pull back your fist. The poor surprised a grad student doesn&apos;t even have time to see it coming before your hand connects with an unyielding skull.
-
-Ouch! You&apos;re so stung by the pain searing through your hand that it&apos;s a moment before you notice that the grad student is now sprawled on the ground, unconscious. After a moment, you notice that a key has fallen out of the grad student&apos;s pocket.
-
-The bus goes southeast.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1028"></child>
+        </children>
+    </item>
+    <item nodeId="node-1028">
+        <command xml:space="preserve">ask student about door</command>
+        <result xml:space="preserve">"Oh, sure, I can let you in," he says. He rises, goes over to the door, and fumbles in his pocket for a moment before producing the key with a look of triumph. "Here we go!" he exclaims, turning the key in the lock. Or trying to. It's stuck. With mounting frustration you watch as he fiddles with the knob, but finally, the door unlocks with a click. The student heaves a sigh and returns to where he was sitting before, looking forlornly at the book.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee120" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee120">
-    <command xml:space="preserve">get key</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee190" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee190">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the front door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee200" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee200">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with the office key)
-You unlock the front door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceee9f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceee9f0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the front door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1029"></child>
+        </children>
+    </item>
+    <item nodeId="node-1029">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening the front door)
 
 Foyeur
 Along one side of the hall is a row of mailboxes, labeled with the names of various professors. Opposite the mailboxes, you see a closed door to the west. A hall stretches on to the north.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeea60" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeea60">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1030"></child>
+        </children>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
 Office hall
 A short hallway stretches toward the back of the building, where it ends in a small window overlooking a parking lot.
 
@@ -891,100 +823,459 @@ A door to the east leads to an office. It is closed.
 A closed door with no nameplate is set into the west wall.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeead0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeead0">
-    <command xml:space="preserve">knock</command>
-    <result xml:space="preserve">(on professor&apos;s door)
-&quot;Come in,&quot; a voice calls from within.
-
-You can hear bells in the distance, their melodious chime floating across campus on the breeze. The deadline is here. A wave of crushing disappointment floods through you as you realize you&apos;ve failed to get the paper in on time. Still, you must press on: a late penalty is better than no grade at all.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1031"></child>
+        </children>
+    </item>
+    <item nodeId="node-1031">
+        <command xml:space="preserve">knock</command>
+        <result xml:space="preserve">(on professor's door)
+"Come in," a voice calls from within.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeeb40" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeeb40">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">(first opening unmarked door)
-It seems to be locked.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1032"></child>
+        </children>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening professor's door)
 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeebb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeebb0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening professor&apos;s door)
-
-Professor&apos;s office
-The professor&apos;s office seems to overflow with learning. Bookshelves line the walls, filled with tomes bearing obscure and incomprehensible titles.
+Professor's office
+The professor's office seems to overflow with learning. Bookshelves line the walls, filled with tomes bearing obscure and incomprehensible titles.
 
 A door to the east leads to an office. Inside, you can see your professor.
 
 The professor sits behind the large desk, looking intently at a book.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeec20" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeec20">
-    <command xml:space="preserve">give paper to professor</command>
-    <result xml:space="preserve">(the professor)
-You nervously hand over the paper. The professor glances down at the front page. &quot;Couldn&apos;t you even bothered to staple it?&quot; With a sigh, the paper disappears somewhere into the professor&apos;s voluminous desk.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1033"></child>
+        </children>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">give paper to professor</command>
+        <result xml:space="preserve">(the professor)
+You nervously hand over the paper. The professor glances down at the front page. With a sigh, the paper disappears somewhere into the professor's voluminous desk.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeec90" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeec90">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1034"></child>
+        </children>
+    </item>
+    <item nodeId="node-1034">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeed00" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeed00">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1035"></child>
+        </children>
+    </item>
+    <item nodeId="node-1035">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Office hall
+A short hallway stretches toward the back of the building, where it ends in a small window overlooking a parking lot.
+
+A door to the east leads to an office. Inside, you can see your professor.
+
+A closed door with no nameplate is set into the west wall.
+
+You can hear bells in the distance, their melodious chime floating across campus on the breeze. The deadline is here. You breathe a sigh of relief at having gotten your paper in.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeed70" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeed70">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1036"></child>
+        </children>
+    </item>
+    <item nodeId="node-1036">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Foyeur
+Along one side of the hall is a row of mailboxes, labeled with the names of various professors. Opposite the mailboxes, you see a closed door to the west. A hall stretches on to the north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You leave the office and trudge back to your dorm, stopping along the way to collect your ID card. You arrive to find your roommate gone, apparently having decided to go to class for once. Exhausted, you sink into your soft bed, ready to get some rest at last.
+
+Several weeks later, you finally hear about your paper. In the end, after all that work, your grade on the paper is A.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1038">
+        <command xml:space="preserve">get id</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1039"></child>
+        </children>
+    </item>
+    <item nodeId="node-1039">
+        <command xml:space="preserve">turn on computer</command>
+        <result xml:space="preserve">You switch the computer on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1040"></child>
+        </children>
+    </item>
+    <item nodeId="node-1040">
+        <command xml:space="preserve">search computer</command>
+        <result xml:space="preserve">Your fingers fly across the keys as exciting music swells in the background. You found the paper! You are a hacker genius! Or at least you know how to work the search box. Now, to get it out of the computer...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1041"></child>
+        </children>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">print paper</command>
+        <result xml:space="preserve">The progress bar on your computer ticks away with excruciating slowness, but at last it hits 100%. There! It's done!
+
+You strain your ears for the whirring sounds of paper and ink nozzles. Nothing. Err...
+
+It slowly dawns on you that you don't actually own a printer. But it's clearly printed to somewhere. If only you weren't too tired to remember where.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1042"></child>
+        </children>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening your room door)
+
+Dorm hallway
+The hallway runs from one end of the dorm to the other, lined with identical room doors. At one end, to the west, is the computer lab. To the east, a door leads outside. Your dorm room is to the south.
+
+You can see a lab swipe box here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1043"></child>
+        </children>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">swipe card</command>
+        <result xml:space="preserve">(in the lab swipe box)
+The door to the computer lab unlocks with a click.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1044"></child>
+        </children>
+    </item>
+    <item nodeId="node-1044">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening the computer lab door)
+
+computer lab
+The computer lab is full of stacks of cash--except the stacks of cash take the shape of shiny new computers. On a table near the front there's a printer with a pay box next to it. There's a stapler on the table as well. The large glass door leads back east to the main hallway.
+
+You can see a table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1045"></child>
+        </children>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">swipe card</command>
+        <result xml:space="preserve">(in the pay box)
+With a whirring sound, the printer roars to life and spits out a series of white pages, face down. You hardly dare to hope...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1046"></child>
+        </children>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">get paper</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+        </children>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Dorm hallway
+The hallway runs from one end of the dorm to the other, lined with identical room doors. At one end, to the west, is the computer lab. To the east, a door leads outside. Your dorm room is to the south.
+
+You can see a lab swipe box here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1048"></child>
+        </children>
+    </item>
+    <item nodeId="node-1048">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the main door)
+
+Grassy area
+A large grassy expanse lies in front of the dorm. A quiet footpath meanders north toward your professor's office. A street runs to the northeast.
+
+A student lies sprawled on a blanket on the grass, studying.
+
+You can also see a bicycle here.
+
+You feel a sudden surge of panic. You glance at your wrist, but of course you never wear a watch. Still, you have this sudden feeling that you're running out of time. You'd better get the paper in fast!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1049"></child>
+        </children>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">ask the student about the bus</command>
+        <result xml:space="preserve">"It comes every couple of minutes," she answers. "Just wait around; it'll show up."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
+        <command xml:space="preserve">ask the student about bus</command>
+        <result xml:space="preserve">"It comes every couple of minutes," she answers. "Just wait around; it'll show up."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1051"></child>
+        </children>
+    </item>
+    <item nodeId="node-1051">
+        <command xml:space="preserve">take bus</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1052"></child>
+        </children>
+    </item>
+    <item nodeId="node-1052">
+        <command xml:space="preserve">attack student</command>
+        <result xml:space="preserve">Feeling desperate and aggressive, you hurl yourself at the student, fists flying. She goes out like a light. Let's see her stop you from taking that bicycle now! But despite your bravado, your stomach twists nervously.
+
+The bus arrives from the northeast.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1053"></child>
+        </children>
+    </item>
+    <item nodeId="node-1053">
+        <command xml:space="preserve">get bike</command>
+        <result xml:space="preserve">You mount the bicycle.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1054"></child>
+        </children>
+    </item>
+    <item nodeId="node-1054">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Road (on the bicycle)
+The road through campus is lightly traficked. It bends to the northwest, and stretches behind to the southwest.
+
+The bus goes northeast.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1055"></child>
+        </children>
+    </item>
+    <item nodeId="node-1055">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Office lawn (on the bicycle)
+You are standing in a small grassy area in front of a white house, with a wooden front door leading in. Yes, it's an old house. It's also an office building. Just one of the oddities you might run into on a campus that's slowly eating up its town.
+
+A graduate student sits on the grass in front of the building, his nose in a book.
+
+The bus goes northwest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1056"></child>
+        </children>
+    </item>
+    <item nodeId="node-1056">
+        <command xml:space="preserve">get off</command>
+        <result xml:space="preserve">You dismount the bicycle.
+
+Office lawn
+You are standing in a small grassy area in front of a white house, with a wooden front door leading in. Yes, it's an old house. It's also an office building. Just one of the oddities you might run into on a campus that's slowly eating up its town.
+
+A bus from the campus transit system sits next to the curb.
+
+A graduate student sits on the grass in front of the building, his nose in a book.
+
+You can also see a bicycle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1057"></child>
+        </children>
+    </item>
+    <item nodeId="node-1057">
+        <command xml:space="preserve">attack student</command>
+        <result xml:space="preserve">Something inside you snaps. All of your exhaustion and frustration are too much to take, and your body fills with violent energy. You pull back your fist. The poor surprised a grad student doesn't even have time to see it coming before your hand connects with an unyielding skull.
+
+Ouch! You're so stung by the pain searing through your hand that it's a moment before you notice that the grad student is now sprawled on the ground, unconscious. After a moment, you notice that a key has fallen out of the grad student's pocket.
+
+The bus goes southeast.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1058"></child>
+        </children>
+    </item>
+    <item nodeId="node-1058">
+        <command xml:space="preserve">get key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1059"></child>
+        </children>
+    </item>
+    <item nodeId="node-1059">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening the front door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1060"></child>
+        </children>
+    </item>
+    <item nodeId="node-1060">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">(with the office key)
+You unlock the front door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1061"></child>
+        </children>
+    </item>
+    <item nodeId="node-1061">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening the front door)
+
+Foyeur
+Along one side of the hall is a row of mailboxes, labeled with the names of various professors. Opposite the mailboxes, you see a closed door to the west. A hall stretches on to the north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1062"></child>
+        </children>
+    </item>
+    <item nodeId="node-1062">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Office hall
+A short hallway stretches toward the back of the building, where it ends in a small window overlooking a parking lot.
+
+A door to the east leads to an office. It is closed.
+
+A closed door with no nameplate is set into the west wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1063"></child>
+        </children>
+    </item>
+    <item nodeId="node-1063">
+        <command xml:space="preserve">knock</command>
+        <result xml:space="preserve">(on professor's door)
+"Come in," a voice calls from within.
+
+You can hear bells in the distance, their melodious chime floating across campus on the breeze. The deadline is here. A wave of crushing disappointment floods through you as you realize you've failed to get the paper in on time. Still, you must press on: a late penalty is better than no grade at all.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1064"></child>
+        </children>
+    </item>
+    <item nodeId="node-1064">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening unmarked door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1065"></child>
+        </children>
+    </item>
+    <item nodeId="node-1065">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening professor's door)
+
+Professor's office
+The professor's office seems to overflow with learning. Bookshelves line the walls, filled with tomes bearing obscure and incomprehensible titles.
+
+A door to the east leads to an office. Inside, you can see your professor.
+
+The professor sits behind the large desk, looking intently at a book.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1066"></child>
+        </children>
+    </item>
+    <item nodeId="node-1066">
+        <command xml:space="preserve">give paper to professor</command>
+        <result xml:space="preserve">(the professor)
+You nervously hand over the paper. The professor glances down at the front page. "Couldn't you even bothered to staple it?" With a sigh, the paper disappears somewhere into the professor's voluminous desk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1067"></child>
+        </children>
+    </item>
+    <item nodeId="node-1067">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1068"></child>
+        </children>
+    </item>
+    <item nodeId="node-1068">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1069"></child>
+        </children>
+    </item>
+    <item nodeId="node-1069">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
 Office hall
 A short hallway stretches toward the back of the building, where it ends in a small window overlooking a parking lot.
 
@@ -993,34 +1284,28 @@ A door to the east leads to an office. Inside, you can see your professor.
 A closed door with no nameplate is set into the west wall.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeede0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeede0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1070"></child>
+        </children>
+    </item>
+    <item nodeId="node-1070">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
 Foyeur
 Along one side of the hall is a row of mailboxes, labeled with the names of various professors. Opposite the mailboxes, you see a closed door to the west. A hall stretches on to the north.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeee50" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeee50">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You leave the office and trudge back to your dorm. You arrive to find your roommate still blissfully unconscious--the lucky fool. Exhausted, you sink into your soft bed, ready to get some rest at last.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1071"></child>
+        </children>
+    </item>
+    <item nodeId="node-1071">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You leave the office and trudge back to your dorm. You arrive to find your roommate still blissfully unconscious--the lucky fool. Exhausted, you sink into your soft bed, ready to get some rest at last.
 
-You&apos;re jerked awake a short time later by a sharp pounding at the door. Your head throbs as you stumble blearily over to open it. You feel very small next to the towering figures silhouetted against the too-bright light of the hallway. &quot;We&apos;ve got some questions for you,&quot; one of the police officers says gruffly. &quot;About your attacks on the hard-working student and the grad student.&quot; Your stomach sinks. You&apos;re certainly not going to back to sleep now.
+You're jerked awake a short time later by a sharp pounding at the door. Your head throbs as you stumble blearily over to open it. You feel very small next to the towering figures silhouetted against the too-bright light of the hallway. "We've got some questions for you," one of the police officers says gruffly. "About your attacks on the hard-working student and the grad student." Your stomach sinks. You're certainly not going to back to sleep now.
 
-The process drags on over several months. In the end, you don&apos;t face criminal charges, but you&apos;re dismissed from the university, and you&apos;re working to pay a hefty financial settlement to the students you assaulted. In retrospect, failing your paper doesn&apos;t sound so bad.
+The process drags on over several months. In the end, you don't face criminal charges, but you're dismissed from the university, and you're working to pay a hefty financial settlement to the students you assaulted. In retrospect, failing your paper doesn't sound so bad.
 
 Several weeks later, you finally hear about your paper. You handed it in late, so you received a penalty. You get the feeling that by the time you handed in your paper, your professor was a little annoyed with you, and it showed in the grading. In the end, after all that work, your grade on the paper is B-.
 
@@ -1032,66 +1317,154 @@ Several weeks later, you finally hear about your paper. You handed it in late, s
 
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="120">YES</temporary>
-  </item>
-  <item nodeId="node-0x7ceeeec0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You would have to get out of your bed first.
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1072">
+        <command xml:space="preserve">get paper</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeef30" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeef30">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You would have to get out of your bed first.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeefa0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeefa0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You would have to get out of your bed first.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef010" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef010">
-    <command xml:space="preserve">get up</command>
-    <result xml:space="preserve">You get out of your bed.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1073"></child>
+        </children>
+    </item>
+    <item nodeId="node-1073">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">You get out of your bed.
 
 Your dorm room
 Your room is a mess--hardly surprising, given the all-nighter you pulled. books and papers are strewn everywhere. In a corner by your dorm window, your desk is the epicenter of the chaos; your computer sits in a blank spot at the eye of the storm.
 
-You can see your room door, your bed (empty) and your roommate&apos;s bed (in which is your roommate) here.
+You can see your room door, your bed (empty) and your roommate's bed (in which is your roommate) here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef080" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef080">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening your room door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1074"></child>
+        </children>
+    </item>
+    <item nodeId="node-1074">
+        <command xml:space="preserve">get paper</command>
+        <result xml:space="preserve">That isn't available.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1075"></child>
+        </children>
+    </item>
+    <item nodeId="node-1075">
+        <command xml:space="preserve">x paper</command>
+        <result xml:space="preserve">You'd love to! But you'll have to find it first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1076"></child>
+        </children>
+    </item>
+    <item nodeId="node-1076">
+        <command xml:space="preserve">search paper</command>
+        <result xml:space="preserve">That isn't available.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1077"></child>
+        </children>
+    </item>
+    <item nodeId="node-1077">
+        <command xml:space="preserve">search for paper</command>
+        <result xml:space="preserve">You'd love to! But you'll have to find it first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1078"></child>
+        </children>
+    </item>
+    <item nodeId="node-1078">
+        <command xml:space="preserve">search computer for paper</command>
+        <result xml:space="preserve">You poke grumpily at some keys, but nothing happens. Oh, it's still turned off. No wonder.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1079"></child>
+        </children>
+    </item>
+    <item nodeId="node-1079">
+        <command xml:space="preserve">turn on computer</command>
+        <result xml:space="preserve">You switch the computer on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1080"></child>
+        </children>
+    </item>
+    <item nodeId="node-1080">
+        <command xml:space="preserve">lick paper</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1081"></child>
+        </children>
+    </item>
+    <item nodeId="node-1081">
+        <command xml:space="preserve">climb paper</command>
+        <result xml:space="preserve">That isn't available.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1082"></child>
+        </children>
+    </item>
+    <item nodeId="node-1082">
+        <command xml:space="preserve">search computer for paper</command>
+        <result xml:space="preserve">Your fingers fly across the keys as exciting music swells in the background. You are a hacker genius! Or at least you know how to work the search box. Now, to get it out of the computer...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1083">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You would have to get out of your bed first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1084"></child>
+        </children>
+    </item>
+    <item nodeId="node-1084">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You would have to get out of your bed first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1085"></child>
+        </children>
+    </item>
+    <item nodeId="node-1085">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You would have to get out of your bed first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1086"></child>
+        </children>
+    </item>
+    <item nodeId="node-1086">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">You get out of your bed.
+
+Your dorm room
+Your room is a mess--hardly surprising, given the all-nighter you pulled. books and papers are strewn everywhere. In a corner by your dorm window, your desk is the epicenter of the chaos; your computer sits in a blank spot at the eye of the storm.
+
+You can see your room door, your bed (empty) and your roommate's bed (in which is your roommate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1087"></child>
+        </children>
+    </item>
+    <item nodeId="node-1087">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening your room door)
 
 dorm hallway
 The hallway runs from one end of the dorm to the other, lined with identical room doors. At one end, to the west, is the computer lab. To the east, a door leads outside. Your dorm room is to the south.
@@ -1099,539 +1472,305 @@ The hallway runs from one end of the dorm to the other, lined with identical roo
 You can see your room door, a main door, the computer lab door and a door swipe box here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef0f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef0f0">
-    <command xml:space="preserve">print paper</command>
-    <result xml:space="preserve">You&apos;ll have to find your paper before you can print it.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1088"></child>
+        </children>
+    </item>
+    <item nodeId="node-1088">
+        <command xml:space="preserve">print paper</command>
+        <result xml:space="preserve">You'll have to find your paper before you can print it.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef160" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef160">
-    <command xml:space="preserve">turn on computer</command>
-    <result xml:space="preserve">It isn&apos;t something you can switch.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1089"></child>
+        </children>
+    </item>
+    <item nodeId="node-1089">
+        <command xml:space="preserve">turn on computer</command>
+        <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef1d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef1d0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">dorm hallway
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1090"></child>
+        </children>
+    </item>
+    <item nodeId="node-1090">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">dorm hallway
 The hallway runs from one end of the dorm to the other, lined with identical room doors. At one end, to the west, is the computer lab. To the east, a door leads outside. Your dorm room is to the south.
 
 You can see your room door, a main door, the computer lab door and a door swipe box here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef240" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef240">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">Which do you mean, your room door, the main door, the computer lab door or the door swipe box?
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1091"></child>
+        </children>
+    </item>
+    <item nodeId="node-1091">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">Which do you mean, your room door, the main door, the computer lab door or the door swipe box?
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef2b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef2b0">
-    <command xml:space="preserve">lab</command>
-    <result xml:space="preserve">It seems to be locked.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1092"></child>
+        </children>
+    </item>
+    <item nodeId="node-1092">
+        <command xml:space="preserve">lab</command>
+        <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef320" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef320">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">There&apos;s no point leaving without your paper! Your professor is quite firm about deadlines, and he&apos;s not going to take any excuses.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1093"></child>
+        </children>
+    </item>
+    <item nodeId="node-1093">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">There's no point leaving without your paper! Your professor is quite firm about deadlines, and he's not going to take any excuses.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef390" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef390">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">(first opening the computer lab door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1094"></child>
+        </children>
+    </item>
+    <item nodeId="node-1094">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening the computer lab door)
 It seems to be locked.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef400" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef400">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1095"></child>
+        </children>
+    </item>
+    <item nodeId="node-1095">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
 Your dorm room
 Your room is a mess--hardly surprising, given the all-nighter you pulled. books and papers are strewn everywhere. In a corner by your dorm window, your desk is the epicenter of the chaos; your computer sits in a blank spot at the eye of the storm.
 
-You can see your room door, your bed (empty) and your roommate&apos;s bed (in which is your roommate) here.
+You can see your room door, your bed (empty) and your roommate's bed (in which is your roommate) here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef470" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef470">
-    <command xml:space="preserve">get id</command>
-    <result xml:space="preserve">Taken.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1096"></child>
+        </children>
+    </item>
+    <item nodeId="node-1096">
+        <command xml:space="preserve">get id</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef4e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef4e0">
-    <command xml:space="preserve">search computer</command>
-    <result xml:space="preserve">You poke grumpily at some keys, but nothing happens. Oh, it&apos;s still turned off. No wonder.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1097"></child>
+        </children>
+    </item>
+    <item nodeId="node-1097">
+        <command xml:space="preserve">search computer</command>
+        <result xml:space="preserve">You poke grumpily at some keys, but nothing happens. Oh, it's still turned off. No wonder.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef550" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef550">
-    <command xml:space="preserve">turn on computer</command>
-    <result xml:space="preserve">You switch the computer on.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1098"></child>
+        </children>
+    </item>
+    <item nodeId="node-1098">
+        <command xml:space="preserve">turn on computer</command>
+        <result xml:space="preserve">You switch the computer on.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef5c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef5c0">
-    <command xml:space="preserve">search computer</command>
-    <result xml:space="preserve">Your fingers fly across the keys as exciting music swells in the background. You are a hacker genius! Or at least you know how to work the search box. Now, to get it out of the computer...
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1099"></child>
+        </children>
+    </item>
+    <item nodeId="node-1099">
+        <command xml:space="preserve">search computer</command>
+        <result xml:space="preserve">Your fingers fly across the keys as exciting music swells in the background. You are a hacker genius! Or at least you know how to work the search box. Now, to get it out of the computer...
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef630" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef630">
-    <command xml:space="preserve">search for paper</command>
-    <result xml:space="preserve">You hardly know where to begin. Instead of searching for something, why not say where you want to look? Then you could start to narrow it down. For instance, you might search your bed...
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1100"></child>
+        </children>
+    </item>
+    <item nodeId="node-1100">
+        <command xml:space="preserve">search for paper</command>
+        <result xml:space="preserve">You hardly know where to begin. Instead of searching for something, why not say where you want to look? Then you could start to narrow it down. For instance, you might search your bed...
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef6a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef6a0">
-    <command xml:space="preserve">print paper</command>
-    <result xml:space="preserve">The progress bar on your computer ticks away with excruciating slowness, but at last it hits 100%. There! It&apos;s done!
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1101"></child>
+        </children>
+    </item>
+    <item nodeId="node-1101">
+        <command xml:space="preserve">print paper</command>
+        <result xml:space="preserve">The progress bar on your computer ticks away with excruciating slowness, but at last it hits 100%. There! It's done!
 
 You strain your ears for the whirring sounds of paper and ink nozzles. Nothing. Err...
 
-It slowly dawns on you that you don&apos;t actually own a printer. But it&apos;s clearly printed to somewhere. If only you weren&apos;t too tired to remember where.
+It slowly dawns on you that you don't actually own a printer. But it's clearly printed to somewhere. If only you weren't too tired to remember where.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef710" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef710">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1102"></child>
+        </children>
+    </item>
+    <item nodeId="node-1102">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
 dorm hallway
 The hallway runs from one end of the dorm to the other, lined with identical room doors. At one end, to the west, is the computer lab. To the east, a door leads outside. Your dorm room is to the south.
 
 You can see your room door, a main door, the computer lab door and a door swipe box here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef780" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef780">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">There&apos;s no point leaving without your paper! Your professor is quite firm about deadlines, and he&apos;s not going to take any excuses.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1103"></child>
+        </children>
+    </item>
+    <item nodeId="node-1103">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">There's no point leaving without your paper! Your professor is quite firm about deadlines, and he's not going to take any excuses.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef7f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef7f0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">(first opening the computer lab door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1104"></child>
+        </children>
+    </item>
+    <item nodeId="node-1104">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening the computer lab door)
 It seems to be locked.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef860" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef860">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">Which do you mean, your room door, the main door, the computer lab door or the door swipe box?
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1105"></child>
+        </children>
+    </item>
+    <item nodeId="node-1105">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">Which do you mean, your room door, the main door, the computer lab door or the door swipe box?
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef8d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef8d0">
-    <command xml:space="preserve">lab</command>
-    <result xml:space="preserve">(with the ID card)
-That doesn&apos;t seem to fit the lock.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1106"></child>
+        </children>
+    </item>
+    <item nodeId="node-1106">
+        <command xml:space="preserve">lab</command>
+        <result xml:space="preserve">(with the ID card)
+That doesn't seem to fit the lock.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef940" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef940">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1107"></child>
+        </children>
+    </item>
+    <item nodeId="node-1107">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
   an ID card
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceef9b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceef9b0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">dorm hallway
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1108"></child>
+        </children>
+    </item>
+    <item nodeId="node-1108">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">dorm hallway
 The hallway runs from one end of the dorm to the other, lined with identical room doors. At one end, to the west, is the computer lab. To the east, a door leads outside. Your dorm room is to the south.
 
 You can see your room door, a main door, the computer lab door and a door swipe box here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceefa20" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceefa20">
-    <command xml:space="preserve">swipe id card in box</command>
-    <result xml:space="preserve">The door to the computer lab unlocks with a click.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1109"></child>
+        </children>
+    </item>
+    <item nodeId="node-1109">
+        <command xml:space="preserve">swipe id card in box</command>
+        <result xml:space="preserve">The door to the computer lab unlocks with a click.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceefa90" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceefa90">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">There&apos;s no point leaving without your paper! Your professor is quite firm about deadlines, and he&apos;s not going to take any excuses.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1110"></child>
+        </children>
+    </item>
+    <item nodeId="node-1110">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">There's no point leaving without your paper! Your professor is quite firm about deadlines, and he's not going to take any excuses.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceefb00" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceefb00">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">(first opening the computer lab door)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1111"></child>
+        </children>
+    </item>
+    <item nodeId="node-1111">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening the computer lab door)
 
 computer lab
-The computer lab is full of stacks of cash--except the stacks of cash take the shape of shiny new computers. On a table near the front there&apos;s a printer with a pay box next to it. There&apos;s a stapler on the table as well. The large glass door leads back east to the main hallway.
+The computer lab is full of stacks of cash--except the stacks of cash take the shape of shiny new computers. On a table near the front there's a printer with a pay box next to it. There's a stapler on the table as well. The large glass door leads back east to the main hallway.
 
 You can see the computer lab door and a table here.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceefb70" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceefb70">
-    <command xml:space="preserve">x table</command>
-    <result xml:space="preserve">The wooden table feels incongruously low-tech in this room buzzing with computation. On top of it you can see the printer and the stapler. There&apos;s a small drawer in the center.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1112"></child>
+        </children>
+    </item>
+    <item nodeId="node-1112">
+        <command xml:space="preserve">x table</command>
+        <result xml:space="preserve">The wooden table feels incongruously low-tech in this room buzzing with computation. On top of it you can see the printer and the stapler. There's a small drawer in the center.
 
 On the table are a printer (empty) and a stapler (empty).
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceefbe0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceefbe0">
-    <command xml:space="preserve">x printer</command>
-    <result xml:space="preserve">This printer is enormous! Clearly when it comes to technology, size does matter. The tray is empty.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1113"></child>
+        </children>
+    </item>
+    <item nodeId="node-1113">
+        <command xml:space="preserve">x printer</command>
+        <result xml:space="preserve">This printer is enormous! Clearly when it comes to technology, size does matter. The tray is empty.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceefc50" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceefc50">
-    <command xml:space="preserve">x stapler</command>
-    <result xml:space="preserve">It&apos;s a perfectly ordinary stapler. It seems to be empty right now.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1114"></child>
+        </children>
+    </item>
+    <item nodeId="node-1114">
+        <command xml:space="preserve">x stapler</command>
+        <result xml:space="preserve">It's a perfectly ordinary stapler. It seems to be empty right now.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceefcc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceefcc0">
-    <command xml:space="preserve">use printer</command>
-    <result xml:space="preserve">Actually, you can&apos;t do anything with the printer itself. You have to have a computer to print anything, and even the pay station is a separate device. Technology, huh?
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1115"></child>
+        </children>
+    </item>
+    <item nodeId="node-1115">
+        <command xml:space="preserve">use printer</command>
+        <result xml:space="preserve">Actually, you can't do anything with the printer itself. You have to have a computer to print anything, and even the pay station is a separate device. Technology, huh?
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceefd30" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceefd30">
-    <command xml:space="preserve">x table</command>
-    <result xml:space="preserve">The wooden table feels incongruously low-tech in this room buzzing with computation. On top of it you can see the printer and the stapler. There&apos;s a small drawer in the center.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1116"></child>
+        </children>
+    </item>
+    <item nodeId="node-1116">
+        <command xml:space="preserve">x table</command>
+        <result xml:space="preserve">The wooden table feels incongruously low-tech in this room buzzing with computation. On top of it you can see the printer and the stapler. There's a small drawer in the center.
 
 On the table are a printer (empty) and a stapler (empty).
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="494">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceefda0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceefda0">
-    <command xml:space="preserve">use pay station</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="493">YES</temporary>
-  </item>
-  <item nodeId="node-0x7ceefe10">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="2520">YES</temporary>
-  </item>
-  <item nodeId="node-0x7ceefe80">
-    <command xml:space="preserve">get paper</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="356">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceefef0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceefef0">
-    <command xml:space="preserve">get up</command>
-    <result xml:space="preserve">You get out of your bed.
-
-Your dorm room
-Your room is a mess--hardly surprising, given the all-nighter you pulled. books and papers are strewn everywhere. In a corner by your dorm window, your desk is the epicenter of the chaos; your computer sits in a blank spot at the eye of the storm.
-
-You can see your room door, your bed (empty) and your roommate&apos;s bed (in which is your roommate) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="356">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeff60" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeff60">
-    <command xml:space="preserve">get paper</command>
-    <result xml:space="preserve">That isn&apos;t available.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="356">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ceeffd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ceeffd0">
-    <command xml:space="preserve">x paper</command>
-    <result xml:space="preserve">You&apos;d love to! But you&apos;ll have to find it first.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="356">YES</temporary>
-    <children>
-      <child nodeId="node-0x7cef0040" />
-    </children>
-  </item>
-  <item nodeId="node-0x7cef0040">
-    <command xml:space="preserve">search paper</command>
-    <result xml:space="preserve">That isn&apos;t available.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="356">YES</temporary>
-    <children>
-      <child nodeId="node-0x7cef00b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7cef00b0">
-    <command xml:space="preserve">search for paper</command>
-    <result xml:space="preserve">You&apos;d love to! But you&apos;ll have to find it first.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="356">YES</temporary>
-    <children>
-      <child nodeId="node-0x7cef0120" />
-    </children>
-  </item>
-  <item nodeId="node-0x7cef0120">
-    <command xml:space="preserve">search computer for paper</command>
-    <result xml:space="preserve">You poke grumpily at some keys, but nothing happens. Oh, it&apos;s still turned off. No wonder.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="356">YES</temporary>
-    <children>
-      <child nodeId="node-0x7cef0190" />
-    </children>
-  </item>
-  <item nodeId="node-0x7cef0190">
-    <command xml:space="preserve">turn on computer</command>
-    <result xml:space="preserve">You switch the computer on.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="356">YES</temporary>
-    <children>
-      <child nodeId="node-0x7cef0200" />
-    </children>
-  </item>
-  <item nodeId="node-0x7cef0200">
-    <command xml:space="preserve">lick paper</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="356">YES</temporary>
-    <children>
-      <child nodeId="node-0x7cef0270" />
-    </children>
-  </item>
-  <item nodeId="node-0x7cef0270">
-    <command xml:space="preserve">climb paper</command>
-    <result xml:space="preserve">That isn&apos;t available.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="356">YES</temporary>
-    <children>
-      <child nodeId="node-0x7cef02e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7cef02e0">
-    <command xml:space="preserve">search computer for paper</command>
-    <result xml:space="preserve">Your fingers fly across the keys as exciting music swells in the background. You are a hacker genius! Or at least you know how to work the search box. Now, to get it out of the computer...
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="355">YES</temporary>
-  </item>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1117"></child>
+        </children>
+    </item>
+    <item nodeId="node-1117">
+        <command xml:space="preserve">use pay station</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
 </Skein>

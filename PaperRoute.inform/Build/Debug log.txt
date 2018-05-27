@@ -1,28 +1,28 @@
 Debugging log of Inform 7
-Inform called as: /Applications/Inform.app/Contents/MacOS/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/paulbroyles/Library/Containers/com.inform7.inform-compiler/Data/Library/Inform -project /Users/paulbroyles/Documents/Programming/Inform/Paper Route.inform -format=ulx
-Found language bundle 'English' (from .materials)
-Found language bundle 'French' (from .materials)
-Found language bundle 'German' (from .materials)
-Found language bundle 'Italian' (from .materials)
-Found language bundle 'Spanish' (from .materials)
-Found language bundle 'Swedish' (from .materials)
+Inform called as: /Applications/Inform.app/Contents/MacOS/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/paulbroyles/Library/Containers/com.inform7.inform-compiler/Data/Library/Inform -project /Users/paulbroyles/Dropbox/Programming/Inform/PaperRouteGame/PaperRoute.inform -format=ulx -release
+Found language bundle 'English' (built in)
+Found language bundle 'French' (built in)
+Found language bundle 'German' (built in)
+Found language bundle 'Italian' (built in)
+Found language bundle 'Spanish' (built in)
+Found language bundle 'Swedish' (built in)
 Reading language definition from </Applications/Inform.app/Contents/Resources/Internal/Languages/English/Syntax.preform>
-720 declarations read (14002 words)
+720 declarations read (14183 words)
 
 
 -----------------------------------------------------
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 7323 words long.
+I've now read your source text, which is 7324 words long.
 
 
 -----------------------------------------------------
 Phase II ... Semantic analysis Ia
 -----------------------------------------------------
 
-I've also read Standard Rules by Graham Nelson, which is 42616 words long.
-I've also read English Language by Graham Nelson, which is 2288 words long.
+I've also read Standard Rules by Graham Nelson, which is 42655 words long.
+I've also read English Language by Graham Nelson, which is 2297 words long.
 I've also read Rideable Vehicles by Graham Nelson, which is 1819 words long.
 
 
@@ -78,6 +78,8 @@ Phase X ... Tables and grammar
 Phase XI ... Phrases and rules
 -----------------------------------------------------
 
+    Regional: CONSTANT_VNT'outdoors'-region(I157_outdoors)(I89'outdoors')
+     == region
 
 
 -----------------------------------------------------
@@ -136,6 +138,14 @@ Phase XII ... Code generation
 
 ==== Phase XII.13 ... Compiling second block of phrases ====
 
+            Regional: CONSTANT_VNT'outdoors'-region(I157_outdoors)(I89'outdoors')
+             == region
+            Regional: CONSTANT_VNT'outdoors'-region(I157_outdoors)(I89'outdoors')
+             == region
+            Regional: CONSTANT_VNT'outdoors'-region(I157_outdoors)(I89'outdoors')
+             == region
+            Regional: CONSTANT_VNT'outdoors'-region(I157_outdoors)(I89'outdoors')
+             == region
 
 
 ==== Phase XII.14 ... Compiling noun and scope filter tokens ====
@@ -175,8 +185,8 @@ Providing for a total heap of 8192, given requirement of 8192
 Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
-Total of 125 files written as streams.
-CPU time: 151 centiseconds
+Total of 113 files written as streams.
+CPU time: 232 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html>
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <style type="text/css">
     <!--
         *, *:before, *:after {
@@ -275,7 +276,7 @@
             }
         }
         function showAllResp() {
-            for (var i=0;i<469;i++) {
+            for (var i=0;i<471;i++) {
                 showResp('extra'+(1000000+i), 'plus'+(1000000+i));
             }
         }
@@ -632,11 +633,11 @@
         document.getElementById(ic).style.background = '#cccccc';
     }
     </script>
-    </head>
-    <body><script language="JavaScript">function pasteCode(code) { var myProject = project(); myProject.selectView('source'); myProject.pasteCode(code); }</script>
+</head>
+<body>
+    <script language="JavaScript">function pasteCode(code) { var myProject = project(); myProject.selectView('source'); myProject.pasteCode(code); }</script>
     <font face="lucida grande,geneva,arial,tahoma,verdana,helvetica,helv" size=2>
     <!--CONTENT BEGINS-->
-
     <div id="periodictable">
     <table cellspacing="3" border="0" width="100%">
     <tr id="surround6"><td onclick="window.location='Welcome.html'; return false;"><div class="sidebar"></div></td><td onclick="click_element_box('segment1'); return false;"><div id="box6_1" class="box">
@@ -672,7 +673,7 @@
     A map of how the scenes begin and end<br><i>About scenes&nbsp;&nbsp;<a href=inform:/doc150.html><img border=0 src=inform:/doc_images/help.png></a>; How they link together&nbsp;&nbsp;<a href=inform:/doc154.html><img border=0 src=inform:/doc_images/help.png></a></i></p>
     </td>
     </tr></table>
-    <p class="tightin1"><img border=0 src=inform:/scene_icons/WPB.png>&nbsp;&nbsp;Entire Game&nbsp;<a href=#A0><img border=0 src=inform:/doc_images/Below.tif></a>&nbsp;&nbsp;<img border=0 src=inform:/scene_icons/Recurring.png></p><p class="tightin1"><img border=0 src=inform:/scene_icons/WhenC.png>&nbsp;&nbsp;Paper Rush&nbsp;<a href=#A1><img border=0 src=inform:/doc_images/Below.tif></a></p><p>Legend: <img border=0 src=inform:/scene_icons/WPB.png>&nbsp;<i>Begins when play begins</i>; <img border=0 src=inform:/scene_icons/WhenC.png>&nbsp;<i>can begin whenever some condition holds</i>; <img border=0 src=inform:/scene_icons/Segue.png>&nbsp;<i>follows when a previous scene ends</i>; <img border=0 src=inform:/scene_icons/Simul.png>&nbsp;<i>begins simultaneously</i>; <img border=0 src=inform:/scene_icons/WNever.png>&nbsp;<i>never begins</i>; <img border=0 src=inform:/scene_icons/ENever.png>&nbsp;<i>never ends</i>; <img border=0 src=inform:/scene_icons/Recurring.png>&nbsp;<i>recurring (can happen more than once)</i>. <i>Scene names are italicised when and if they appear for a second or subsequent time because the scene can begin in more than one way</i>.</p><a name=SDETAILS></a><hr><p class="hangingin1"><a name=A0></a><b>The <i>Entire Game</i> scene</b>&nbsp;&nbsp;<i>recurring</i></p><p class="tightin1">The Entire Game scene is built-in. It is going on whenever play is going on. (It is recurring so that if the story ends, but then resumes, it too will end but then begin again.)</p><p class="hangingin1"><i>Begins when:</i> the story has not ended</p><p class="hangingin1"><i>Ends when:</i> the story has ended</p><hr><p class="hangingin1"><a name=A1></a><b>The <i>Paper Rush</i> scene</b>&nbsp;<a href="source:story.ni#line468"><img border=0 src=inform:/doc_images/Reveal.tif></a></p><p class="hangingin1"><i>Begins when:</i> the player is in Grassy area&nbsp;<a href="source:story.ni#line470"><img border=0 src=inform:/doc_images/Reveal.tif></a></p><p class="hangingin1"><i>Ends when:</i> Paper Rush has been happening&nbsp;<a href="source:story.ni#line472"><img border=0 src=inform:/doc_images/Reveal.tif></a></p><p class="hangingin1"><i>What happens:</i></p><p class="hangingin2">&nbsp;&nbsp;&nbsp;&nbsp;<img border=0 src=inform:/doc_images/rulenone.png title="start of rulebook">(say "You can hear bells in the distance, their melodious chime floating across campus on the breeze. The deadline is here. [run paragraph on]"; ...)&nbsp;<a href="source:story.ni#line474"><img border=0 src=inform:/doc_images/Reveal.tif></a></p>
+    <p class="tightin1"><img border=0 src=inform:/scene_icons/WPB.png>&nbsp;&nbsp;Entire Game&nbsp;<a href=#A0><img border=0 src=inform:/doc_images/Below.tif></a>&nbsp;&nbsp;<img border=0 src=inform:/scene_icons/Recurring.png></p><p class="tightin1"><img border=0 src=inform:/scene_icons/WhenC.png>&nbsp;&nbsp;Paper Rush&nbsp;<a href=#A1><img border=0 src=inform:/doc_images/Below.tif></a></p><p>Legend: <img border=0 src=inform:/scene_icons/WPB.png>&nbsp;<i>Begins when play begins</i>; <img border=0 src=inform:/scene_icons/WhenC.png>&nbsp;<i>can begin whenever some condition holds</i>; <img border=0 src=inform:/scene_icons/Segue.png>&nbsp;<i>follows when a previous scene ends</i>; <img border=0 src=inform:/scene_icons/Simul.png>&nbsp;<i>begins simultaneously</i>; <img border=0 src=inform:/scene_icons/WNever.png>&nbsp;<i>never begins</i>; <img border=0 src=inform:/scene_icons/ENever.png>&nbsp;<i>never ends</i>; <img border=0 src=inform:/scene_icons/Recurring.png>&nbsp;<i>recurring (can happen more than once)</i>. <i>Scene names are italicised when and if they appear for a second or subsequent time because the scene can begin in more than one way</i>.</p><a name=SDETAILS></a><hr><p class="hangingin1"><a name=A0></a><b>The <i>Entire Game</i> scene</b>&nbsp;&nbsp;<i>recurring</i></p><p class="tightin1">The Entire Game scene is built-in. It is going on whenever play is going on. (It is recurring so that if the story ends, but then resumes, it too will end but then begin again.)</p><p class="hangingin1"><i>Begins when:</i> the story has not ended</p><p class="hangingin1"><i>Ends when:</i> the story has ended</p><hr><p class="hangingin1"><a name=A1></a><b>The <i>Paper Rush</i> scene</b>&nbsp;<a href="source:story.ni#line468"><img border=0 src=inform:/doc_images/Reveal.tif></a></p><p class="hangingin1"><i>Begins when:</i> the player is in Grassy area&nbsp;<a href="source:story.ni#line470"><img border=0 src=inform:/doc_images/Reveal.tif></a></p><p class="hangingin1"><i>Ends when:</i> Paper Rush has been happening&nbsp;<a href="source:story.ni#line472"><img border=0 src=inform:/doc_images/Reveal.tif></a></p><p class="hangingin1"><i>What happens:</i></p><p class="hangingin2">&nbsp;&nbsp;&nbsp;&nbsp;<img border=0 src=inform:/doc_images/rulenone.png title="start of rulebook">&nbsp;<a href="source:story.ni#line474"><img border=0 src=inform:/doc_images/Reveal.tif></a></p>
     </div>
     <div id="segment2">
     <hr><table cellspacing="3" border="0" style="background:#eeeeee;"><tr>
@@ -707,4 +708,6 @@
     <hr>
 
     <!--CONTENT ENDS-->
-    </font></body></html>
+    </font>
+</body>
+</html>
